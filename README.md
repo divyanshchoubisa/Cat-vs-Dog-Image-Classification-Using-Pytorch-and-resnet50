@@ -38,7 +38,7 @@ ResNet, short for Residual Networks is a classic neural network used as a backbo
 # Loss Function
 As my network's final layer was a linear layer and so applying a softmax function is good so that we can have a probability distribution for our output classes and so I  used CROSSENTROPYLOSS() as my loss function.Pytorch CROSSENTROPYLOSS() combines nn.LogSoftmax() and nn.NLLLoss() in one single class which was the reason I didnt apply nn.LogSoftmax() the fc final output layer because Pytorch's CROSSENTROPYLOSS() whould do that for me and calculate loss through nn.NLLLoss().
 
-[Check Pytorch Doc for more details for CROSSENTROPYLOSS()](https://pytorch.org/docs/master/generated/torch.nn.CrossEntropyLoss.html) 
+[Check Pytorch Doc for more details for CROSSENTROPYLOSS().](https://pytorch.org/docs/master/generated/torch.nn.CrossEntropyLoss.html) 
 
 ![And here is the Training Loss curve](https://raw.githubusercontent.com/divyanshchoubisa/Cat-vs-Dog-Image-Classification-Using-Pytorch-and-resnet50/master/Cat%20and%20Dog%20Classifier/Training%20Loss.png)
 
