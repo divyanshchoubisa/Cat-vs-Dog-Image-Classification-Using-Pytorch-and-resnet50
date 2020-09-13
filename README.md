@@ -43,7 +43,7 @@ As my network's final layer was a linear layer and so applying a softmax functio
 ![And here is the Training Loss curve](https://raw.githubusercontent.com/divyanshchoubisa/Cat-vs-Dog-Image-Classification-Using-Pytorch-and-resnet50/master/Cat%20and%20Dog%20Classifier/Training%20Loss.png)
 
 # Optimizer
-Adam optimizer with a learning rate of 0.03 was used.
+Adam optimizer with a learning rate of 0.003 was used.
 
 # Training
 In this project's training phase a total of 10 epochs were performed whose accuracy curve for training and validation data is as below:
